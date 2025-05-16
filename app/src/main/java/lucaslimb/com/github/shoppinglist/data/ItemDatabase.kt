@@ -2,6 +2,7 @@ package lucaslimb.com.github.shoppinglist.data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
+import lucaslimb.com.github.shoppinglist.model.ItemModel
 
 /**
  * Uma classe abstrata que serve como o ponto principal de acesso ao banco de dados SQLite para o aplicativo.

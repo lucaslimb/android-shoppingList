@@ -7,6 +7,15 @@ import androidx.room.Insert
 import androidx.room.Query
 import lucaslimb.com.github.shoppinglist.model.ItemModel
 
+
+/**
+ * Uma classe de Objeto de Acesso a Dados (DAO) para gerenciar operações de banco de dados relacionadas ao ItemModel.
+ * Esta classe fornece métodos para realizar operações como inserir, deletar e buscar todos os itens do banco de dados.
+ *
+ * @author Ewerton Carreira
+ * @version 1.0
+ * @since 2023-03-01
+ */
 @Dao
 interface ItemDao {
 
